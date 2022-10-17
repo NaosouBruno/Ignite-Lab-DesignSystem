@@ -12,7 +12,9 @@ module.exports = {
   },
   features: {
     storyStoreV7: true,
+    interactionsDebugger: true,
   },
+  staticDirs: ["../public"],
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUTION") {
       config.base = "/Ignite-Lab-DesignSystem/";
